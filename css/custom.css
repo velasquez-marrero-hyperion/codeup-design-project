@@ -2,15 +2,15 @@
 /*font-family: 'Anton', sans-serif;*/
 
 * {
-box-sizing: border-box;}
+    box-sizing: border-box;}
 
 body {
-background-color:#F0F0F0;}
+    background-color:#F0F0F0;}
 
 nav {
     background-color:white;
 
-border: white 3px solid;}
+    border: white 3px solid;}
 
 .navbar-brand {
     font-family: 'Abel', sans-serif;
@@ -18,35 +18,37 @@ border: white 3px solid;}
 }
 
 .logo {
-height: 105px;
-width: 105px;}
+    height: 105px;
+    width: 105px;
+    border: none
+}
 
 h1 {
-font-size: 64px;
-font-family: 'Anton', sans-serif;
-text-align: center;
-padding-right: 0;
-padding-bottom:10px;
-padding-left:0;
-margin-top: 60px;}
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    padding-right: 0;
+    padding-bottom:10px;
+    padding-left:0;
+    margin-top: 60px;}
 
 h2 {
-font-size: 48px;
-font-family: 'Anton', sans-serif;
-text-align: center;
-padding:10px;}
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    padding:10px;}
 
 h3 {
-font-size: 40px;
-font-family: 'Anton', sans-serif;}
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;}
 
 h4 {
-font-size: 32px;
-font-family: 'Anton', sans-serif;}
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;}
 
 h5 {
     font-size: 28px;
-    font-family: 'Abel', sans-serif;}
+    font-family: 'Anton', sans-serif;}
 
 p {
     font-family: 'Abel', sans-serif;}
@@ -63,7 +65,8 @@ a:hover{
     width: 105px;
     height: 105px;
     border-radius: 50%;
-    margin: .5em;
+    margin: 1em;
+    /*padding-top:30px;*/
     border: white .5em solid;
     color:white;
     font-family: 'Anton', sans-serif;
@@ -71,27 +74,80 @@ a:hover{
 
 .red-circle {
     background: #E6563B;
-   }
+}
 
 .orange-circle {
     background: #EB9D3A;
-  }
+}
 
 .green-circle {
     background: #7CB06C;
-   }
+}
 
 .cyan-circle {
     background: #00ABA9;
-    }
+}
 
 hr {
-margin-left: auto;
-margin-right: auto;
-width:80%;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+
 
 img {
-border: solid 8px #E6E6E6;
-border-radius:15px;
+    border: solid 8px #E6E6E6;
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    width: 18rem;
+}
+
+.media > img {
+    height: 64px;
+    width: 64px;
+    border: solid 4px #E6E6E6 ;
+    border-radius: 3px;
+}
+
+#twitter {
+    margin-top: 50px;
+}
+
+.i.fa-twitter.fa {
+    height: 40px;
+    width: 40px;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.icons {
+    display:flex;
+    justify-content: space-between;
+}
+
+.little-circles {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    color:black;
+    margin-left:5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    padding-left:7px;
+    padding-top:2px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
 }
