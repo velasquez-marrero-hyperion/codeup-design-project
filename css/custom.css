@@ -4,11 +4,18 @@
     box-sizing: border-box;}
 body {
     background-color:#F0F0F0;
-    padding:0;}
+    padding:0;
+    width:100%;
+    }
 
 nav {
     background-color:white;
-    border: white 3px solid;}
+    border: white 3px solid;
+}
+
+.navbar {
+background-color: white;}
+
 .navbar-brand {
     font-family: 'Abel', sans-serif;
     font-size: 50px;
@@ -53,6 +60,7 @@ p {
 
 a:hover{
     text-decoration:none;}
+
 .circle {
     width: 105px;
     height: 105px;
@@ -64,6 +72,7 @@ a:hover{
     color:white;
     font-family: 'Anton', sans-serif;
     font-size: 18px; }
+
 .red-circle {
     background: #E6563B;
 }
@@ -81,6 +90,10 @@ hr {
     margin-right: auto;
     width:80%;
 }
+
+#twitter {
+margin-top: 30px;}
+
 img {
     border: solid 8px #E6E6E6;
     max-width: 100%;
@@ -98,9 +111,7 @@ img {
     border: solid 4px #E6E6E6 ;
     border-radius: 3px;
 }
-#twitter {
-    margin-top: 50px;
-}
+
 .i.fa-twitter.fa {
     height: 40px;
     width: 40px;
