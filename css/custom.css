@@ -6,7 +6,7 @@ body {
     background-color:#F0F0F0;
     padding:0;
     width:100%;
-    }
+}
 
 nav {
     background-color:white;
@@ -14,7 +14,7 @@ nav {
 }
 
 .navbar {
-background-color: white;}
+    background-color: white;}
 
 .navbar-brand {
     font-family: 'Abel', sans-serif;
@@ -23,7 +23,8 @@ background-color: white;}
 .logo {
     height: 105px;
     width: 105px;
-    border: none
+    border: none;
+
 }
 h1 {
     font-size: 64px;
@@ -92,7 +93,7 @@ hr {
 }
 
 #twitter {
-margin-top: 30px;}
+    margin-top: 30px;}
 
 img {
     border: solid 8px #E6E6E6;
@@ -141,8 +142,26 @@ ul {
     list-style: none;
 }
 
-@media all and (max-width:576px) {
 
-    .xs-text-center {
-    text-align:center;}
+@media screen and (max-width: 420px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .logo {
+        position: absolute;
+        left:calc(50% - 75px);
+        top: 10px;
+    }
+    .lg-nav {
+        display:none;
+    }
+}
+
+
+
+@media screen and (min-width:720px) and (max-width:1200px) {
+    .xs-nav {
+        display:none;
+    }
 }
